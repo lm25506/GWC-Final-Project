@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Facts & Stats: Immigration</title>
+  <!-- <script src="jquery-1.10.2.min.js"></script> -->
+  <link href='http://fonts.googleapis.com/css?family=Quicksand:300' rel='stylesheet'type='text/css'>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles2.css">
+  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="script2.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+.mySlides {display:none;}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body onload="openCity(event, 'Home')">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+overflow: hidden;
+border: 1px solid #ccc;
+background-color: white;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+background-color: inherit;
+float: left;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 14px 16px;
+transition: 0.3s;
+font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+display: none;
+padding: 6px 12px;
+border: 1px solid #ccc;
+border-top: none;
+}
+</style>
+</head>
+<body>
+
+<h2>Facts & Stats: Immigration </h2>
+
+
+<div class="tab">
+<h1><button class="tablinks" onclick="openCity(event, 'Home')">Home</button></h>
+<h1><button class="tablinks" onclick="openCity(event, 'Now & Then')">Now & Then</button></h>
+<h1><button class="tablinks" onclick="openCity(event, 'Demographics & Destination')">Demographics & Destination</button></h>
+<h1><button class="tablinks" onclick="openCity(event, 'Education')">Education</button></h>
+<h1><button class="tablinks" onclick="openCity(event, 'Labor Force')">Labor Force</button></h>
+<h1><button class="tablinks" onclick="openCity(event, 'Children')">Children</button></h>
+<h1><button class="tablinks" onclick="openCity(event, 'Laws')">Laws</button></h>
+<h1><button class="tablinks" onclick="openCity(event, 'Permenent Residence')">Permenent Residence</button></h>
+<h1><button class="tablinks" onclick="openCity(event, 'Visas')">Visas</button></h>
+<h1><button class="tablinks" onclick="openCity(event, 'About Us')">About Us</button></h>
+</div>
+
+
+<div id="Home" class="tabcontent">
+
+  <div class="row">
+    <div class="column"
+      <div style="height:400px;width:500px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
+      Karla Mari McKanders, (Prof., Law, U. of Tennessee College of Law), University of Arkansas
+      at Little Rock Law Review, Summer 2009, p. 597. Traditionally, immigration has been defined
+      as the determination of admission, exclusion and the conditions under which immigrants can
+      remain in the country. "In reality, however, Congress has much broader power over immigrant
+      and alienage law and policy, including the ability to regulate, 'the conditions of residence such
+      as access to education, welfare and employment.'" When Congress passed the IRCA in 1987,
+      it extended its authority from regulating the entrance and exit of immigrants to also regulating
+      immigrants' employment conditions. Also, pursuant to federal regulations the United States
+      Citizenship and Immigration Services determines which immigrants are permitted to work.
+      Congress has plenary power over immigration law, which means that courts have traditionally
+      deferred to congressional authority in making decisions regarding immigration law. The
+      dispute over state and local regulation begins when there is an overlap between states'
+      traditional police powers to regulate the health, safety and welfare of its citizens and the federal
+      government's regulation of education, welfare and employment of immigrants while in the
+      United States.
+      </div>
+  <div class="column"
+    <img class="mySlides" src="https://owips.com/sites/default/files/styles/225x120/public/clipart/migration-clipart/275657/migration-clipart-canadian-immigration-275657-8286530.png?itok=EU657QTC">
+    <img class="mySlides" src="https://carrillodavalos.com/wp-content/uploads/2017/03/Immigration-Bird-e1493662338222.png">
+    <img class="mySlides" src="https://cdn.pixabay.com/photo/2018/01/10/19/39/cloud-3074621_960_720.png">
+    <img class="mySlides" src="http://www.prismoverseas.com/wp-content/uploads/2019/05/kisspng-passport-stamp-travel-visa-immigration-xanax-5b4bcbfbae3fe4.png">
+    <img class="mySlides" src="http://hddfhm.com/images/migration-clipart-23.png">
+    <img class="mySlides" src="https://s3.amazonaws.com/user-media.venngage.com/775756-e990177efd5e90b4c21ba399ee643fa5.PNG">
+    <img class="mySlides" src="https://b.kisscc0.com/20180816/yze/kisscc0-immigration-to-the-united-states-south-dakota-us-p-melting-pot-with-stroke-5b75263caf0703.2724536615344041567169.png">
+    <img class="mySlides" src="http://www.sclance.com/clipart/immigration-clipart/immigration-clipart_1061180.png">
+  </div>
+
+  </div>
+</div>
+
+
+
+  <script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 1500); // Change image every 1.5 seconds
+  }
+  </script>
+</div>
+
+
+
+<div id="Now & Then" class="tabcontent">
+<img src="https://www.migrationpolicy.org/sites/default/files/source_images/FRS-SPT-2019_Figure_1_UPDATED.png" />
+</div>
+
+<div id="Demographics & Destination" class="tabcontent">
+  <p>  </p>
+  <p>  </p>
+  <span id="spaces">  </span>
+  <span id="more1">
+  Forty-six percent of immigrants in 2017 reported their race as single-race White, 27 percent as Asian, 9 percent as Black, and 16 percent as some other race. About 2 percent reported having two or more races.
+  </span></p>
+  <button onclick="myFunction2()" id="myBtn">What is the racial makeup of immigrants?</button>
+  <p>COMING SOON :)))))</p>
+</div>
+
+<div id="Education" class="tabcontent">
+  <p style="background-color:blue; font-size: 30px"> High School Graduate or less:</p>
+    <li style="font-size:20px";> U.S. Born: 37.3% </li>
+    <li style="font-size:20px";> U.S Immigrants: 51.3% </li>
+  <p style="background-color:blue; font-size: 30px"> Two year degree/some College:</p>
+    <li style="font-size:20px";> U.S. Born: 31.1%</li>
+    <li style="font-size:20px";> U.S. Immigrants:18.7%</li>
+  <p style="background-color:blue; font-size: 30px"> Bachelor's degree or higher:</p>
+    <li style="font-size:20px";> U.S. Born: 31.6%</li>
+    <li style="font-size:20px";> U.S. Immigrants: 30.0%</li>
+  <p>
+
+    <br>
+
+  </p>
+  <p style="font-size:30px";> There is a continuous increase in the number
+    of US Immigrants who have a Bachelor's degree or higher since 1960 with
+    a percentage of 2.5 to 17.2% in 2016. </p>
+
+  <img src="graph.jpg" alt="Graph" class="center " width="400" height="400"></img>
+  <br>
+  <br>
+  <p>
+
+    <br>
+
+  </p>
+  <p style="background-color:blue; font-size: 30px">
+    The Diversity in Language!!
+    </p>
+    <div>
+      <p style="float: left;"><img src="lang.jpg" alt= "diversity" class="right "style="width:400px;height:400px"></img>
+        <br>
+      </p>
+      <p style="font-size:25px";>In the 18th and
+         19th centuries conquest played a big role with
+          adding different cultures to the USA, however
+          language diversity has
+          been driven primarily by immigration to the U.S.
+          Nevertheless,this country
+          has also been a place in which immigrant languages die out to
+          be replaced by the country's main language: English.</p>
+      <li style="font-size:25px";> In the second languages spoken in the
+        US, Spanish takes up 81%. </li>
+      <li style="font-size:25px"> Following Spanish is Chinese with a 6%
+      </li>
+      <li style="font-size:25px"> French is next with 5% , Vietnamese with
+        3% and Korean with 2% </li>
+        <p>
+
+             <br>
+
+           </p>
+           <p>
+
+             <br>
+
+           </p>
+           <p>
+
+             <br>
+
+           </p>
+         </div>
+
+
+         <p>
+
+           <br>
+
+         </p>
+         <p>
+
+           <br>
+
+         </p> <p>
+
+            <br>
+
+          </p>
+  <p><img src="for.jpg" alt="More" width="700" height="500" align="right"> </p>
+
+
+
+  <pre style="font-size:25px">
+
+Rank    Language       Speaker Number
+1	English   	231,122,908
+2   	Spanish	        37,458,470
+3   	Chinese   	2,896,766
+4	French          2,047,467
+5	Tagalog	        1,613,346
+6   	Vietnamese	1,399,936
+7   	Korean    	1,117,343
+8	German      	1,063,773
+9    	Arabic     	924,374
+10      Russian   	879,434
+11      Italian	        708,966
+12      Portuguese	693,469
+13      Hindi     	643,337
+14      Polish    	580,153
+15	Japanese  	449,475
+16      Urdu	        397,502
+17	Persian	        391,113
+18	Gujarati        373,253
+19	Greek     	304,932
+20	Bengali	        257,740
+21	Panjabi	        253,740
+22	Telugu     	247,760
+23	Armenian	237,840
+24	Hmong	        214,943
+25	Hebrew	        212,747
+</pre>
+
+
+
+ </div>
+
+<button onclick="topFunction()" id="myBtnn" title="Go to top">Top</button>
+
+<div id="Labor Force" class="tabcontent">
+    <p>  In 2018, there were 28.2 million foreign-born persons in the U.S labor force, compromising 17.4 percent of the total.
+​
+    <p>  Foreign-born men were more likely to participate in the labor force than native-born men
+     (77.9% versus 67.3%), while foreign-born women were less likely to participate than native-born
+      women (54.3% versus 57.6%).
+  <p> The median usual weekly earnings of foreign-born full-time wage and salary workers were $758
+in 2018, compared with $910 for their native-born counterparts.(Differences in
+earnings reflect a variety of factors, including variations in the distributions of foreign-born and
+native-born workers by educational attainment, occupation, industry, and geographic region.)
+<span id="dots">...</span>
+<span id="more">
+Foreign-born workers were more likely than native-born workersto be employed in service
+occupations and less likely to be employed in management, professional, and related
+occupations.
+</span></p>
+<button onclick="myFunction1()" id="myBtn">Read more</button>
+​
+​
+  <img src="laborForce.png" alt="Immigration Chart" class="center"></img>
+
+</div>
+
+
+<div id="Children" class="tabcontent">
+  <p> For unaccompanied minors from Central American countries, 2014 was the biggest year. Overall, 68,541 minors entered through the southwestern United States border. This amount was almost double the amount in 2013. In 2015, the numbers dropped to 39,970, and rose again in 2016 with 59,692 unaccompanied minors arriving.
+
+      <p>   Many of the immigrant children from El Salvador, Honduras, and Mexico are escaping extreme violence, often gang-related and fueled by the drug trade. A 2013 report by the UN High Commissioner for Refugees indicated that 63% of the immigrants from El Salvador, 43% of Hondurans, and 32% of Mexicans cited violence in society (mostly gang-related violence) as the reason for leaving. Violence in the home was another strong motivator, with statistics standing at 63% for El Salvador, 24% for Honduras, and 17% for Mexico. "Salvadoran and Honduran children ... come from extremely violent regions where they probably perceive the risk of traveling alone to the U.S. preferable to remaining at home," the report said. Guatemalan children cited deprivation (29%), violence in the home (23%), and violence in society (20%) as reasons for leaving their countries. Children in Honduras also cited poverty as reasons for leaving, while many girls from El Salvador reported fear of both home and gang-related sexual abuse.
+  <p> In 2014, one in five births (791,000) in the United States was to an immigrant mother (legal or illegal).
+  Our best estimate is that legal immigrants acounted for 12.4 percent (494,000) of all births, and illegal immigrants accounted for 7.5 percent (297,000). The 297,000 births per year to illegal immigrants is larger than the total number of births in any state other than California and Texas. It  is also larger than the total number of births in 16 states plus the District of Columbia, combined.
+
+
+<p>
+    <img src="Children.png" alt="Immigration for Children Chart" class="center"></img>
+
+</div>
+
+
+<div id="Laws" class="tabcontent">
+  <p>U.S. immigration law is very complex, and there is much confusion as to how it works. The Immigration and Naturalization Act, the body of law governing current immigration policy, provides for an annual worldwide limit of 675,000 permanent immigrants, with certain exceptions for close family members. Lawful
+  permanent residency allows a foreign national to work and live lawfully and permanently in the United States. Lawful permanent residents are eligible to apply for nearly all jobs and can remain in the country even if they are unemployed. Each year the United States also admits noncitizens on a temporary basis.</font> </p></center>
+  <p>Immigration to the United States is based upon the following principles: the reunification of families, admitting immigrants with skills that are valuable to the U.S. economy, protecting refugees, and promoting diversity. This fact sheet provides basic information about how the U.S. legal immigration system is designed.</font> </p></center>
+
+
+  <button onclick="myFunction3()">Read More</button>
+
+  <div id="myDIV">
+
+    <h1><font size="8" >1790</font></h1></center>
+    <p>Naturalization Act of 1790
+    Established the rules for naturalized citizenship, as per Article 1, Section 8 of the Constitution, but placed no restrictions on immigration. Citizenship was limited to white persons, with no other restriction on non-whites. Note: this is a restriction on naturalization (voting and office-holding), not on immigration.</font> </p></center>
+
+    <h1><font size="8" >1795</font></h1></center>
+    <p>Naturalization Act of 1795
+    Lengthened required residency to become citizen. Again, this is a restriction on naturalization, not on immigration.</font> </p></center>
+
+    <h1><font size="8" >1798</font></h1></center>
+    <p>Naturalization Act(officially An Act to Establish a Uniform Rule of Naturalization; ch. 54, 1 Stat. 566)
+    Alien Friends Act(officially An Act Concerning Aliens; ch. 58, 1 Stat. 570)
+    Alien Enemies Act(officially An Act Respecting Alien Enemies; ch. 66, 1 Stat. 577)
+    Extended the duration of residence required for immigrants to become citizens to 14 years. Enacted June 18, 1798, with no expiration date, it was repealed in 1802.
+    Authorized the president to deport any resident immigrant considered "dangerous to the peace and safety of the United States." It was activated June 25, 1798, with a two-year expiration date.
+    Authorized the president to apprehend and deport resident aliens if their home countries were at war with the United States of America. Enacted July 6, 1798, and providing no sunset provision, the act remains intact today as 50 U.S.C. § 21
+    </font> </p></center>
+
+    <h1><font size="8" >1802</font></h1></center>
+    <p>Naturalization Law of 1802
+    Repealed the 14-year residency requirement of Naturalization Act of 1798.</font> </p></center>
+
+    <h1><font size="8" >1870</font></h1></center>
+    <p>Naturalization Act of 1870
+    Extended the naturalization process to "aliens of African nativity and to persons of African descent."
+    Other non-whites were not included in this act and remained excluded from naturalization, per the Naturalization Act of 1790</font> </p></center>
+
+    <h1><font size="8" >1875</font></h1></center>
+    <p>Page Act of 1875(Sect. 141, 18 Stat. 477, 1873-March 1875)
+    The first federal immigration law and prohibited the entry of immigrants considered as "undesirable"
+    The law classified as "undesirable" any individual from Asia who was coming to America to be a contract laborer
+    Strengthen the ban against "coolie" laborers, by imposing a fine of up to $2,000 and maximum jail sentence of one year upon anyone who tried to bring a person from China, Japan, or any oriental country to the United States "without their free and voluntary consent, for the purpose of holding them to a term of service"
+    </font> </p></center>
+
+    <h1><font size="8" >1882</font></h1></center>
+    <p>Chinese Exclusion Act
+    Restricted immigration of Chinese laborers for 10 years.
+    Prohibited Chinese naturalization.
+    Provided deportation procedures for illegal Chinese.
+    Marked the birth of illegal immigration (in America).[1]
+    The Act was "a response to racism [in America] and to anxiety about threats from cheap labor [from China]." [2]</font> </p></center>
+
+    <h1><font size="8" >1882</font></h1></center>
+    <p>Immigration Act of 1882
+    Imposed a 50 cent head tax to fund immigration officials.</font> </p></center>
+
+    <h1><font size="8" >1885</font></h1></center>
+    <p>Alien Contract Labor Law (Sess. II Chap. 164; 23 Stat. 332)
+    Prohibited the importation and migration of foreigners and aliens under contract or agreement to perform labor in the United States</font> </p></center>
+
+    <h1><font size="8" >1891</font></h1></center>
+    <p>Immigration Act of 1891
+    First comprehensive immigration laws for the US.
+    Bureau of Immigration set up in the Treasury Dept.[3]
+    Immigration Bureau directed to deport unlawful aliens.
+    Empowered "the superintendent of immigration to enforce immigration laws".[4]</font> </p></center>
+
+    <h1><font size="8" >1892</font></h1></center>
+    <p>Geary Act
+    Extended and strengthened the Chinese Exclusion Act.
+    </font> </p></center>
+
+    <h1><font size="8" >1898</font></h1></center>
+    <p>United States v. Wong Kim Ark[5]
+    The Supreme Court ruled that a child of Chinese descent born in the United States - whose parents at the time of his birth are subjects of the Emperor of China but who are domiciled in the United States as permanent residents; are carrying on business there; and are not employed in any diplomatic or other official capacity under the Emperor of China - is a citizen of the United States by virtue of having been born "in the United States and subject to the jurisdiction thereof," per the first clause of the Fourteenth Amendment to the United States Constitution.
+    Several years later, in the wake of the 1906 San Francisco Earthquake and Fire, a number of Chinese immigrants who were otherwise subject to the Chinese Exclusion Act were nonetheless able to claim American citizenship by alleging they were born in San Francisco, and that their birth certificates had been destroyed along with those of everyone else who had been born in San Francisco. "Papers for fictitious children were sold in China, allowing Chinese to immigrate despite the laws." [1]
+    </font> </p></center>
+
+    <h1><font size="8" >1903</font></h1></center>
+    <p>Immigration Act of 1903 (Anarchist Exclusion Act)
+    Added four inadmissible classes: anarchists, people with epilepsy, beggars, and importers of prostitutes
+    </font> </p></center>
+
+    <h1><font size="8" >1906</font></h1></center>
+    <p>Naturalization Act of 1906
+    Standardized naturalization procedures
+    Made some knowledge of English a requirement for citizenship
+    Established the Bureau of Immigration and Naturalization
+    </font> </p></center>
+
+    <h1><font size="8" >1907</font></h1></center>
+    <p>Immigration Act of 1907
+    Restricted immigration for certain classes of disabled and diseased people
+    </font> </p></center>
+
+    <h1><font size="8" >1917</font></h1></center>
+    <p>Immigration Act of 1917 (Barred Zone Act)
+    Restricted immigration from Asia by creating an "Asiatic Barred Zone" and introduced a reading test for all immigrants over sixteen years of age, with certain exceptions for children, wives, and elderly family members.
+    </font> </p></center>
+
+    <h1><font size="8" >1918</font></h1></center>
+    <p>Immigration Act of 1918
+    Expanded on the provisions of the Anarchist Exclusion Act.
+    </font> </p></center>
+
+    <h1><font size="8" >1921</font></h1></center>
+    <p>Emergency Quota Act
+    Limited the number of immigrants a year from any country to 3% of those already in the US from that country as per the 1910 census.
+    "An unintended consequence of the 1920s legislation was an increase in illegal immigration. Many Europeans who did not fall under the quotas migrated to Canada or Mexico, which [as Western Hemisphere nations] were not subject to national-origin quotas; [and] subsequently they slipped into the United States illegally." [6]
+    </font> </p></center>
+
+    <h1><font size="8" >1922</font></h1></center>
+    <p>The Cable Act of 1922 (ch. 411, 42 Stat. 1021, "Married Women’s Independent Nationality Act")
+    Reversed former immigration laws regarding marriage, also known as the Married Women's Citizenship Act or the Women's Citizenship Act. Previously, a woman lost her US citizenship if she married a foreign man, since she assumed the citizenship of her husband, a law that did not apply to men who married foreign women. The law repealed sections 3 and 4 of the Expatriation Act of 1907.
+    </font> </p></center>
+
+    <h1><font size="8" >1924</font></h1></center>
+    <p>Immigration Act(Johnson-Reed Act)
+    Imposed first permanent numerical limit on immigration.
+    Began a national-origin quota system.
+    </font> </p></center>
+
+    <h1><font size="8" >1924</font></h1></center>
+    <p>National Origins Formula
+    Established with the Immigration Act of 1924.
+    Total annual immigration was capped at 150,000. Immigrants fit into two categories: those from quota-nations and those from non-quota nations.
+    Immigrant visas from quota-nations were restricted to the same ratio of residents from the country of origin out of 150,000 as the ratio of foreign-born nationals in the United States. The percentage out of 150,000 was the relative number of visas a particular nation received.
+    Non-quota nations, notably those contiguous to the United States only had to prove an immigrant's residence in that country of origin for at least two years prior to emigration to the United States.
+    Laborers from Asiatic nations were excluded but exceptions existed for professionals, clergy, and students to obtain visas.
+    </font> </p></center>
+
+    <h1><font size="8" >1934</font></h1></center>
+    <p>Equal Nationality Act of 1934
+    Allowed foreign-born children of American mothers and alien fathers who had entered America before age 18 and lived in America for five years to apply for American citizenship for the first time.
+    Made the naturalization process quicker for American women's alien husbands.
+    </font> </p></center>
+
+    <h1><font size="8" >1930s</font></h1></center>
+    <p>Federal officials deported "Tens of thousands, and possibly more than 400,000, Mexicans and Mexican-Americans... Many, mostly children, were U.S. citizens." [7] "Applications for legal admission into the United States increased following World War II — and so did illegal immigration." [8] Some used fraudulent marriages as their method of illegal entry in the U.S. "Japanese immigration became disproportionately female, as more women left Japan as "picture brides", betrothed to emigrant men into the U.S. whom they had never met." [9]
+    </font> </p></center>
+
+    <h1><font size="8" >1940</font></h1></center>
+    <p>Nationality Act of 1940
+    Pertains chiefly to "Nationality at Birth," Nationality through Naturalization," and "Loss of Nationality"
+    </font> </p></center>
+
+    <h1><font size="8" >1943</font></h1></center>
+    <p>Chinese Exclusion Repeal Act of 1943(Magnuson Act)
+    Repealed the Chinese Exclusion Act and permitted Chinese nationals already in the country to become naturalized citizens. A quota of 105 new Chinese immigrants were allowed into America per year.
+    </font> </p></center>
+
+    <h1><font size="8" >1952</font></h1></center>
+    <p>Immigration and Nationality Act(McCarran-Walter Act)
+    Set a quota for aliens with skills needed in the US.
+    Increased the power of the government to deport illegal immigrants suspected of Communist sympathies.
+    </font> </p></center>
+
+    <h1><font size="8" >1953</font></h1></center>
+    <p>Kwong Hai Chew v. Colding, 344 U.S.590 (1953)
+    The Supreme Court found, "The Bill of Rights is a futile authority for the alien seeking admission for the first time to these shores. But while an alien lawfully enters and resides in this country he becomes invested with the rights guaranteed by the Constitution to all people within our borders".
+    </font> </p></center>
+
+    <h1><font size="8" >1954</font></h1></center>
+    <p>Operation Wetback
+    Immigration and Naturalization Service roundup and deportation of illegal immigrants in selected areas of California, Arizona, and Texas along the border. The U.S. Border Patrol later reported that more than 1.3 million people (a number viewed by many to be inflated and not accurate[citation needed]) were deported or left the U.S. voluntarily under the threat of deportation in 1954.[10]
+    </font> </p></center>
+
+    <h1><font size="8" >1965</font></h1></center>
+    <p>INA Amendments (Hart-Celler Act)
+    Repealed the national-origin quotas.
+    Initiated a visa system for family reunification and skills.
+    Set a quota for Western Hemisphere immigration.
+    Set a 20k country limit for Eastern Hemisphere aliens.</font> </p></center>
+
+    <h1><font size="8" >1966</font></h1></center>
+    <p>Cuban Refugee Adjustment Act
+    Cuban nationals who enter, or were already present in the United States, legal status.
+    </font> </p></center>
+
+    <h1><font size="8" >1970s</font></h1></center>
+    <p>The United States saw a total number of illegal immigrants estimated at 1.1 million, or half of one percent of the United States population.
+    </font> </p></center>
+
+    <h1><font size="8" >1980s</font></h1></center>
+    <p>About 1.3 million illegal immigrants entered the US.
+    </font> </p></center>
+
+    <h1><font size="8" >1982</font></h1></center>
+    <p>Plyler v. Doe,[11]457 U.S. 202(1982)
+    The court also stated that illegal immigrants are "within the jurisdiction" of the states in which they reside and, therefore, are under the equal protection laws of the fourteenth amendment, and stated, "We have never suggested that the class of persons who might avail themselves of the equal protection guarantee is less than coextensive with that entitled to due process. To the contrary, we have recognized [457 U.S. 202, 212] that both provisions were fashioned to protect an identical class of persons, and to reach every exercise of state authority."
+    </font> </p></center>
+
+    <h1><font size="8" >1986</font></h1></center>
+    <p>Immigration Reform and Control Act
+    Started sanctions for knowingly hiring illegal aliens.
+    Provided amnesty to illegal aliens already in the US.[12]
+    Increased border enforcement.
+    Made it a crime to hire an illegal immigrant</font> </p></center>
+
+    <h1><font size="8" >1990s</font></h1></center>
+    <p>Over 5.8 million illegal immigrants entered the US in the 1990s.[13] Mexico rose to the head of the list of sending countries, followed by the Philippines, Vietnam, the Dominican Republic, and China.[14]
+    </font> </p></center>
+
+    <h1><font size="8" >1990</font></h1></center>
+    <p>Immigration Act
+    Increased legal immigration ceilings.
+    Created a diversity admissions category.
+    Tripled the number of visas for priority workers and professionals with U.S. job offers[citation needed] [15]
+    </font> </p></center>
+
+    <h1><font size="8" >1990</font></h1></center>
+    <p>United States v. Verdugo-Urquidez[16]
+    The court reiterated the finding of Kwong Hai Chew v. Colding, 344 U.S. 590, 596 (1953), "The Bill of Rights is a futile authority for the alien seeking admission for the first time to these shores. But while an alien lawfully enters and resides in this country he becomes invested with the rights guaranteed by the Constitution to all people within our borders".
+    Stated, "those cases in which aliens have been determined to enjoy certain constitutional rights establish only that aliens receive such protections when they have come within the territory of, and have developed substantial connections with, this country. See, e. g., Plyler v. Doe, 457 U.S. 202, 212 ."
+    </font> </p></center>
+
+    <h1><font size="8" >1996</font></h1></center>
+    <p>Illegal Immigration Reform and Immigrant Responsibility Act of 1996 (IIRaIRA)
+    Phone verification for worker authentication by employers.
+    Access to welfare benefits more difficult for legal aliens.
+    Increased border enforcement.
+    Reed Amendment attempted to deny visas to former U.S. citizens, but was never enforced[17]</font> </p></center>
+
+    <h1><font size="8" >1999</font></h1></center>
+    <p>Rodriguez v. United States, 169 F.3d 1342, (11th Cir. 1999)
+    Held that statutes which discriminate within the class of aliens comport with the Due Process Clause of the Fifth Amendment (and the equal protection principles it incorporates) so long as they satisfy rational basis scrutiny.
+    Post 9/11/2001 An estimated 3.1 million immigrants entered the United States illegally between 2000 and 2005.[15]
+    From 1998 to 2001, Mexicans accounted for 68% of immigrants who entered the United States illegally. That percentage jumped to 78% for the years between 2001 and 2005, mostly due to stricter security measures that followed the September 11, 2001 Attacks upon the United States (which more efficiently prevented illegal entry from nations that did not share a land or maritime boundary with the United States).[18]
+    </font> </p></center>
+
+    <h1><font size="8" >2002</font></h1></center>
+    <p>Enhanced Border Security and Visa Entry Reform Act
+    Provided for more Border Patrol agents.
+    Requires that schools report foreign students attending classes.
+    Stipulates that foreign nationals in the US will be required to carry IDs with biometric technology.[19]</font> </p></center>
+
+    <h1><font size="8" >2002</font></h1></center>
+    <p>Homeland Security Act of 2002
+    Moved all transportation, customs, immigration, and border security agencies to operate under the Department of Homeland Security.
+    Requires agencies to share information and coordinate efforts in relation to national security and border control.
+    Stipulates which agencies are responsible for which duties in relation to immigration and border security.
+    Outlines specific requirements on handling of children in immigration and border issues.</font> </p></center>
+
+    <h1><font size="8" >2005</font></h1></center>
+    <p>REAL ID Act
+    Required use of IDs meeting certain security standards to enter government buildings, board planes, open bank accounts.
+    Created more restrictions on political asylum
+    Severely curtailed habeas corpus relief for immigrants
+    Increased immigration enforcement mechanisms
+    Altered judicial review
+    Established national standards for state driver licenses.
+    Cleared the way for the building of border barriers.</font> </p></center>
+
+    <h1><font size="8" >2010</font></h1></center>
+    <p>DREAM Act</font> </p></center>
+
+    <h1><font size="8" >2012</font></h1></center>
+    <p>Deferred Action for Childhood Arrivals(executive action)
+    On June 15, 2012, the Secretary of Homeland Security announced that certain people who came to the United States as children and meet several guidelines may request consideration of deferred action for a period of two years, subject to renewal. They are also eligible for work authorization. Deferred action is a use of prosecutorial discretion to defer removal action against an individual for a certain period of time. Deferred action does not provide lawful status] As of 2018, the Trump administration was attempting to phase out the program, but was at least temporarily blocked by several lawsuits.</font> </p></center>
+
+</div>
+</div>
+
+<div id="Permenent Residence" class="tabcontent">
+  <img src="amer.jpg" alt="diversity" class="center" width="600" height="400"></img>
+
+
+    <p style="font-size:20px";> To become a resident of the USA you need to get a Green
+      Card which gives you official immigration status, entitles you to certain
+      rights and responsibilities, and is required if you wish to naturalize
+      as a US Citizen.</p>
+    <img src="green.jpg" alt="Green Card" class="center1" width="200" height="333"></img>
+
+    <div class="arrow bounce">
+  </div>
+
+    <button class="btn eli"onclick="newtab()"
+    >Find out if you're eligible</button>
+    <script>
+    function newtab() {
+      window.open("https://www.uscis.gov/greencard/eligibility-categories");
+    }
+    </script>
+
+</div>
+
+<div id="Visas" class="tabcontent">
+<h3>Types of Visas</h3>
+
+    <a class="lightbox" href="#dog">
+   <img onclick="myFunction6()" style="width:200px;height:200px;" src="http://dlgimmigration.com/wp-content/uploads/2013/01/Screen-Shot-2013-03-09-at-11.24.31-AM1.png"/>
+</a>
+<div class="lightbox-target" id="dog">
+   <img style="width:600px;height:600px;"src="http://dlgimmigration.com/wp-content/uploads/2013/01/Screen-Shot-2013-03-09-at-11.24.31-AM1.png"/>
+   <a class="lightbox-close" href="#"></a>
+</div>
+
+    <h3>Visa Backlogs</h3>
+
+    <p>How many visa applications for permanent immigration (green cards) are backlogged?</p>
+
+      In February 2019, the U.S. government was still processing some family-sponsored visa applications dating to August 1995, and employment-related visa applications from August 2007. According to data on the petitions submitted to the State Department, there were about 3.8 million applicants (including spouses and minor children) who were on the waiting list as of November 1, 2018, the first time the backlog dropped in recent years.The overwhelming majority of backlogs were family-sponsored applicants (3.7 million, which includes the principal applicant and their immediate family members). About 121,000 were employment-sponsored applicants and their families. Of the overall 3.8 million applicants, 1.2 million were citizens of Mexico, followed by those from the Philippines (314,000), India (299,000), Vietnam and China (with 232,000 each). Family- and employment-based prospective immigrants who are waiting to adjust their status to lawful permanent resident from within the United States are not included in the State Department estimate. USCIS also publishes backlog statistics but only for petitions approved in one of the five employment-based categories. USCIS data show that close to 395,000 approved employment-based immigrant petitions were awaiting a priority date based on the May 2018 Department of State Visa Bulletin. The figure corresponds to the number of primary applicants covered by these petitions but excludes their dependents. To MPI knowledge, USCIS did not publish backlog statistics on other types of green card applications the agency adjudicates. In other words, the overall number of people waiting for a green card—within and outside of the United States is likely to be larger than the 3.8 million reported by the State Department (as of November 2018) and 395,000 reported by USCIS (as of May 2018).
+
+</div>
+
+
+
+<div id="About Us" class="tabcontent">
+<h3>About Us</h3>
+COMING SOON :)))))
+</div>
+
+
+
+<script>
+function openCity(evt, cityName) {
+var i, tabcontent, tablinks;
+tabcontent = document.getElementsByClassName("tabcontent");
+for (i = 0; i < tabcontent.length; i++) {
+  tabcontent[i].style.display = "none";
+}
+tablinks = document.getElementsByClassName("tablinks");
+for (i = 0; i < tablinks.length; i++) {
+  tablinks[i].className = tablinks[i].className.replace(" active", "");
+}
+document.getElementById(cityName).style.display = "block";
+evt.currentTarget.className += " active";
+}
+</script>
+
+<h6><marquee behavior="scroll" direction="left" id="asdf">Girls Who Code Summer Immersion Program 2019 <i>asdfasdfasdfasdf</i>Girls Who Code Summer Immersion Program 2019 <i>asdfasdfasdfasdf</i> Girls Who Code Summer Immersion Program 2019  </marquee></h6>
+
+
+<script>
+function myFunction6() {
+document.getElementById("asdf").style.visibility = "hidden";
+  }
+</script>
+
+</body>
+</html>
