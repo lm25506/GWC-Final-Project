@@ -47,6 +47,14 @@ h6 {
 }
 
 
+b {
+  color: black;
+  /* font-family: precious; */
+  font-size: 300%;
+  text-align:center;
+}
+
+
 strong {
   color: black;
   font-family: Arial;
