@@ -54,6 +54,13 @@ b {
   text-align:center;
 }
 
+b1 {
+  color: black;
+  /* font-family: precious; */
+  font-weight: bold;
+  font-size: 100%;
+  text-align:center;
+}
 
 strong {
   color: black;
